@@ -261,3 +261,4 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Include ShiftOS specific BoardConfig if existing
 -include device/shift/axolotl/shiftos/BoardConfig.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
